@@ -1,0 +1,25 @@
+.titles_nav {
+    padding-top: 29px;
+    padding-bottom: -2px;
+    max-width: 1031px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titles_nav a {
+    text-decoration: none;
+    color: #173765;
+}
+
+.navigation__titles {
+    letter-spacing: 0.16px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navigation__titles:hover {
+    padding-bottom: 8px;
+    border-bottom: 2px solid #fab917;
+}

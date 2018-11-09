@@ -1,0 +1,55 @@
+.section__c_development {
+    background-image: url(../img/C_development_back.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 634px;
+}
+
+.tittle__c_development {
+    padding-top: 52px;
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 34px;
+    text-transform: uppercase;
+}
+
+.tittle__c_development__letter_spacing {
+    letter-spacing: 0.38px;
+}
+
+.text__c_development {
+    margin-top: 107px;
+    margin-bottom: 118px;
+    max-width: 594px;
+    width: 100%;
+    height: 97px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+
+.btn {
+    color: #ffffff;
+    background-color: #fab917;
+    border: 1px solid #fb9600;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.btn__request {
+    background-color: #fab917;
+    margin: 0 auto;
+    padding: 13px 11px;
+    max-width: 180px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 21.19px;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.1);
+    letter-spacing: 0.21px;
+}

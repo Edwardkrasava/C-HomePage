@@ -1,0 +1,16 @@
+.section_upper__footer {
+    background-color: #fab917;
+}
+
+.text__upper__footer {
+    text-align: center;
+    margin: 0 auto;
+    padding: 37px 0 33px;
+    max-width: 962px;
+    width: 100%;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #ffffff;
+}

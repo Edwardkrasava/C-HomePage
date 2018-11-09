@@ -1,0 +1,46 @@
+.section_about__us {
+    background-image: url(../img/about_us_back.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 654px;
+}
+
+.title_about__us {
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 34px;
+    text-transform: uppercase;
+    padding-top: 87px;
+    padding-bottom: 28px;
+}
+
+.list_about__us {
+    max-width: 589px;
+    width: 100%;
+    margin-bottom: 36px;
+}
+
+.list_about__us li {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.24px;
+}
+
+.list_rights {}
+
+.btn__request__about__us {
+    background-color: #fab917;
+    margin: 0 auto 78px;
+    padding: 13px 11px;
+    max-width: 180px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 21.19px;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.1);
+    letter-spacing: 0.21px;
+}

@@ -1,0 +1,128 @@
+header {
+    background-color: #fafafa;
+}
+
+.container__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left__content {
+    max-width: 469px;
+    width: 100%;
+    padding-top: 26px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__logo {
+    margin: 4px 0;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-width: 370px;
+    width: 100%;
+    height: 41px;
+}
+
+.quality__dev__text {
+    margin: 4px 0;
+    border-radius: 3px;
+    background-color: #415d9d;
+    max-width: 468px;
+    width: 100%;
+    height: 32px;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 34px;
+    letter-spacing: 0.17px;
+    text-transform: uppercase;
+}
+
+.more__80__dev_text {
+    margin: 4px 0;
+    border-radius: 0 0 10px 2px;
+    background-color: #82aee5;
+    max-width: 456px;
+    width: 100%;
+    height: 25px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+}
+
+.dev__80 {
+    color: #fab917;
+    font-size: 17px;
+    letter-spacing: 0.17px;
+    line-height: 34px;
+    text-transform: uppercase;
+}
+
+.dev__C {
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.17px;
+    line-height: 34px;
+    text-transform: uppercase;
+}
+
+
+.right__content {
+    max-width: 338px;
+    width: 100%;
+    padding-top: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.right__content a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #415d9d;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.container__links {
+    max-width: 153px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__right__container__text {
+    letter-spacing: 0.17px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #2d4871;
+}
+
+.container__numbers {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__net__dev {
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-phone {
+    transform: rotate(90deg);
+}

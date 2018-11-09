@@ -1,0 +1,32 @@
+footer {
+    background-color: #18284b;
+}
+
+.container_footer {
+    padding: 25px 0 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacts__footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.copyright_footer {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 34px;
+}
+
+.info_footer span {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 34px;
+}

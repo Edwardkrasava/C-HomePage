@@ -1,0 +1,20 @@
+@import url('header.css');
+@import url('navigation.css');
+@import url('c_development.css');
+@import url('development_info.css');
+@import url('form.css');
+@import url('about__us.css');
+@import url('upper_footer.css');
+@import url('footer.css');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1172px;
+    width: 100%;
+    margin: 0 auto;
+}
