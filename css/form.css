@@ -1,6 +1,6 @@
 .section_form {
     background-image: url(../img/form_back.png);
-    background-position: center center;
+    background-position: top top;
     background-repeat: no-repeat;
 }
 
@@ -14,6 +14,8 @@
 }
 
 .title__form {
+    padding-top: 95px;
+    margin: 0 auto;
     font-size: 38px;
     font-weight: 900;
     letter-spacing: -0.38px;
@@ -44,20 +46,26 @@
 }
 
 .input {
+    box-sizing: border-box;
+    padding-left: 10px;
     border-radius: 3px;
     border: 1px solid #18284b;
     background-color: #ffffff;
-    margin-bottom: 8px;
     max-width: 382px;
     width: 100%;
     line-height: 45px;
+    margin: 0 auto 8px;
 }
 
-.input__requirements {
-    margin-top: 27px;
-    max-width: 794px;
-    width: 100%;
-    line-height: 112px;
+.textarea__requirements {
+    box-sizing: border-box;
+    padding-left: 10px;
+    border-radius: 3px;
+    border: 1px solid #18284b;
+    background-color: #ffffff;
+    min-width: 100%;
+    min-height: 122px;
+    margin: 27px auto 8px;
 }
 
 .form__inputs .input::placeholder {
@@ -77,4 +85,22 @@
     text-transform: uppercase;
     box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.1);
     letter-spacing: 0.21px;
+}
+
+@media screen and (max-width: 810px) {
+    .textarea__requirements {
+        max-width: 464px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .textarea__requirements {
+        min-width: auto;
+        width: 90%;
+    }
+
+    .input {
+        width: 75%;
+    }
 }

@@ -126,3 +126,13 @@ header {
 .fa-phone {
     transform: rotate(90deg);
 }
+
+/* @media screen and (max-width: 864px) {
+    .right__content {
+        width: 100%;
+        padding-top: 26px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+} */
