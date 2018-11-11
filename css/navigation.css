@@ -43,7 +43,7 @@
     display: none;
 }
 
-@media screen and (max-width: 864px) {
+@media screen and (max-width: 863px) {
     .menu__responsive {
         display: flex;
         flex-direction: column;

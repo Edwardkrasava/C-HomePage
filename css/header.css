@@ -127,12 +127,26 @@ header {
     transform: rotate(90deg);
 }
 
-/* @media screen and (max-width: 864px) {
+@media screen and (max-width: 864px) {
     .right__content {
+        margin: 0 auto;
         width: 100%;
-        padding-top: 26px;
+        max-width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-bottom: 20px;
     }
-} */
+
+    .container__net__dev,
+    .container__numbers {
+        padding-left: 20px;
+        flex-direction: row-reverse;
+        display: flex;
+        align-self: flex-start;
+    }
+
+    .adapt__icon {
+        margin-right: 10px;
+    }
+}
