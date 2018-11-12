@@ -47,6 +47,10 @@
     .menu__responsive {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
+        margin-left: 15px;
+        margin-bottom: -15px;
+        margin-top: -25px;
     }
 
     .container__navigation {
@@ -57,11 +61,17 @@
         background-color: #fafafa;
     }
 
-    .pups {
+    .section_nav {
         background-color: #415d8c;
     }
 
     .mobile__back {
         display: block;
     }
+
+    .navigation__titles {
+        color: #ffffff;
+        line-height: 38px;
+    }
+   
 }

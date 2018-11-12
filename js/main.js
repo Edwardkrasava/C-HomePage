@@ -13,7 +13,7 @@ $(document).ready(function () {
 
     $('#menu_icon').on('click', function (event) {
         event.preventDefault();
-        $('.container__navigation').toggle(500);
+        $('.container__navigation').toggle(700);
     });
 
 
