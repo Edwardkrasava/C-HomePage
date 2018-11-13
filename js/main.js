@@ -3,9 +3,8 @@ $(document).ready(function () {
 
 
     $(window).resize(function (event) {
-        console.log(event);
         if (event.target.innerWidth < 864) {
-            $('.right__content').insertAfter('.pups');
+            $('.right__content').insertAfter('.container__navigation');
         } else {
             $('.right__content').insertAfter('.left__content');
         }
@@ -13,7 +12,7 @@ $(document).ready(function () {
 
     $('#menu_icon').on('click', function (event) {
         event.preventDefault();
-        $('.container__navigation').toggle(700);
+        $('.container__navigation').toggle(600);
     });
 
 

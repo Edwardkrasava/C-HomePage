@@ -1,4 +1,6 @@
+
 .titles_nav {
+    margin: 0 auto;
     max-width: 1031px;
     width: 100%;
     display: flex;
@@ -8,6 +10,8 @@
 }
 
 .titles_nav a {
+    font-family: "Helvetica Neue Cyr", sans-serif;
+    font-weight: 100;
     text-decoration: none;
     color: #173765;
 }
@@ -71,7 +75,7 @@
 
     .navigation__titles {
         color: #ffffff;
-        line-height: 38px;
+        line-height: 36px;
     }
    
 }

@@ -1,10 +1,16 @@
 .section__development__info {
-    background-color: #18284b;
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 100%;
+    background-image: url(../img/Background_dev_info.png);
     position: relative;
-    padding-bottom: 98px;
+    padding-top: 51px;
+    padding-bottom: 94px;
 }
 
 .vertical__line {
+    width: 30px;
+    max-height: 925px;
     position: absolute;
     bottom: -4px;
     left: 50%;
@@ -17,11 +23,15 @@
 }
 
 .first__half__development__info {
-    margin-right: 100px;
+    margin-right: 60px;
+}
+
+.second__half__development__info {
+    margin-right: -12px;
 }
 
 .box__development__info {
-    padding-top: 77px;
+    padding-top: 27px;
     max-width: 530px;
     width: 100%;
     display: flex;
@@ -31,7 +41,7 @@
 }
 
 .box__development__info_right {
-    padding-top: 77px;
+    padding-top: 27px;
     max-width: 530px;
     width: 100%;
     display: flex;
@@ -58,9 +68,23 @@
     height: 63px;
 }
 
-@media screen and (max-width: 640px) {
+.server_title {
+    max-width: 300px;
+    width: 100%;
+}
+
+.box__development__info__text {
+    font-family: 'Helvetica Neue Cyr', sans-serif;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 1120px) {
     .vertical__line {
         display: none;
+    }
+
+    .box__development__info__text {
+        text-align: center;
     }
 
     .container__development__info {
@@ -68,7 +92,8 @@
         align-items: center;
     }
 
-    .first__half__development__info {
-        margin-right: 0;
+    .first__half__development__info,
+    .second__half__development__info {
+        margin: 0 auto;
     }
 }

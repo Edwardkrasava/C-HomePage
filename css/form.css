@@ -1,6 +1,6 @@
 .section_form {
     background-image: url(../img/form_back.png);
-    background-position: top top;
+    background-position: top center;
     background-repeat: no-repeat;
 }
 
@@ -11,6 +11,8 @@
     max-width: 623px;
     width: 100%;
     color: #18284b;
+    font-family: "Helvetica Neue Cyr - Bold", sans-serif;
+    font-weight: 700;
 }
 
 .title__form {
@@ -22,6 +24,9 @@
 }
 
 .text__form {
+    font-family: "Helvetica Neue Cyr", sans-serif;
+    font-weight: 400;
+    padding-top: 40px;
     margin: 0 auto;
     text-align: center;
     max-width: 526px;
@@ -31,12 +36,15 @@
 }
 
 .description__form {
+    font-family: "Helvetica Neue Cyr - Thin", sans-serif;
+    font-weight: 100;
     padding-top: 30px;
     font-weight: 100;
     letter-spacing: -0.24px;
 }
 
 .form__inputs {
+    padding-top: 100px;
     margin: 97px auto 0;
     max-width: 795px;
     width: 100%;
@@ -53,11 +61,14 @@
     background-color: #ffffff;
     max-width: 382px;
     width: 100%;
-    line-height: 45px;
+    line-height: 42px;
     margin: 0 auto 8px;
+    font-family: "Helvetica Neue Cyr", sans-serif;
+    font-weight: 300;
 }
 
 .textarea__requirements {
+    padding-top: 10px;
     box-sizing: border-box;
     padding-left: 10px;
     border-radius: 3px;
@@ -70,12 +81,27 @@
 
 .form__inputs .input::placeholder {
     opacity: 0.9;
+    font-family: "Helvetica Neue Cyr", sans-serif;
+    font-weight: 300;
+}
+
+.form__inputs .textarea__requirements::placeholder {
+    padding-top: 10px;
+    opacity: 0.9;
+    font-family: "Helvetica Neue Cyr", sans-serif;
+    font-weight: 300;
 }
 
 .btn__request__now {
+    color: #ffffff;
     background-color: #fab917;
-    margin: 69px auto 85px;
-    padding: 10px 11px;
+    border: 1px solid #fb9600;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: "Helvetica Neue Cyr", sans-serif;
+    font-weight: 400;
+    margin: 69px auto 20px;
+    padding: 11px;
     max-width: 220px;
     width: 100%;
     font-size: 13px;
@@ -85,6 +111,26 @@
     text-transform: uppercase;
     box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.1);
     letter-spacing: 0.21px;
+}
+
+.btn__request__now:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 360px) {
+    .description__form {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .title__form {
+        font-size: 24px;
+    }
+
+    .text__form {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 810px) {

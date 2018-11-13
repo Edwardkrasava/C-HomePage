@@ -19,9 +19,87 @@ body {
     box-sizing: border-box;
 }
 
+.tittle {
+    font-family: 'Helvetica Neue Cyr', sans-serif;
+    font-weight: 700;
+}
+
+.btn {
+    color: #ffffff;
+    background-color: #fab917;
+    border: 1px solid #fb9600;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: "Helvetica Neue Cyr", sans-serif;
+    font-weight: 400;
+    transition: 0.7s;
+}
+
+.btn:hover {
+    box-shadow: none;
+    color: #fb9600;
+    background-color: white;
+    border: 1px solid #18284b;
+}
+
 @media screen and (max-width: 1200px) {
     .container {
-        padding-right: 15px;
-        padding-left: 15px;
+        padding: 0 15px;
     }
+}
+
+@media screen and (max-width: 864px) {
+    .tittle {
+        font-weight: 300;
+    }
+}
+
+@font-face {
+    font-family: Proxima Nova;
+    src: url(../fonts/ProximaNova/ProximaNova-Light.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Proxima Nova Lt;
+    src: url(../fonts/ProximaNova/ProximaNovaExCn-LightIt.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Proxima Nova - Regular;
+    src: url(../fonts/ProximaNova/ProximaNovaExCn-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+
+@font-face {
+    font-family: Helvetica Neue Cyr;
+    src: url(../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Helvetica Neue Cyr -Black;
+    src: url(../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Black.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Helvetica Neue Cyr - Thin;
+    src: url(../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Thin.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Helvetica Neue Cyr - Bold;
+    src: url(../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal
 }

@@ -1,4 +1,7 @@
 .section_upper__footer {
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 100%;
     background-color: #fab917;
 }
 
@@ -13,4 +16,19 @@
     line-height: 34px;
     text-transform: uppercase;
     color: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
+    .text__upper__footer {
+        font-size: 20px;
+        padding: 15px 0 10px;
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+    .text__upper__footer {
+        font-size: 14px;
+        padding: 9px 0 6px;
+    }
 }
